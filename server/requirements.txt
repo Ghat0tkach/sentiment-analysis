@@ -1,0 +1,6 @@
+fastapi==0.70.0
+uvicorn==0.15.0
+moviepy==1.0.3
+pydub==0.26.6
+SpeechRecognition==3.8.1
+textblob==0.15.3
