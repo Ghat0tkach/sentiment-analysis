@@ -103,7 +103,9 @@ const App = () => {
 
       <main>
         <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-          <div className="text-center text-lg border-4 border-dashed border-blue-400 p-8 rounded-md flex justify-center items-center">
+          <div className="text-center text-lg border-4 border-dashed border-blue-400 p-8 rounded-md flex justify-center items-center "
+          onDragOver={handleDragOver}
+  onDrop={handleDrop}>
             {videoUrl ? (
               <video
                 controls
